@@ -165,7 +165,8 @@ void n_food(int mode){
 
 void draw(){
   int i,j,k,flag=0;
-  system("clear");
+  //system("clear"); //if using linux
+  //system("clean") //if using windows
   printf("  Points: %d \t",snk.size);
   for(i=0;i<2*C-14;i++){
     printf("-");
